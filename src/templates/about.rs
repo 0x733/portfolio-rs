@@ -16,13 +16,13 @@ pub fn view() -> Markup {
                                 blockquote.blockquote.mb-0 {
                                     p style="text-align: justify;" {
                                         "Hello, I am "
-                                        span.purple { "Hüseyin" }
+                                        span.purple { "Your Name" }
                                         ", based in "
-                                        span.purple { "Ankara, Turkey" }
+                                        span.purple { "Your City, Country" }
                                         "."
                                         br;
                                         "I work as a "
-                                        span.purple { "Systems and Mobile Software Engineer" }
+                                        span.purple { "Full Stack & Systems Developer" }
                                         "."
                                         br;
                                         br;
@@ -31,21 +31,21 @@ pub fn view() -> Markup {
                                     ul {
                                         li.about-activity {
                                             i.fa-solid.fa-angles-right.purple style="margin-right: 8px;" {}
-                                            " Customizing desktop environments and Linux kernel configurations"
+                                            " Building high-performance backend APIs and microservices"
                                         }
                                         li.about-activity {
                                             i.fa-solid.fa-angles-right.purple style="margin-right: 8px;" {}
-                                            " Researching systems security, network protocols, and reverse engineering"
+                                            " Researching web security, database design, and DevOps automation"
                                         }
                                         li.about-activity {
                                             i.fa-solid.fa-angles-right.purple style="margin-right: 8px;" {}
-                                            " Designing local-first database solutions and offline-first mobile synchronization"
+                                            " Designing responsive client interfaces and modular frontend architectures"
                                         }
                                     }
                                     p style="color: rgb(155 126 172);" {
                                         "\"Designing efficient systems is the art of making complexity invisible.\""
                                     }
-                                    footer.blockquote-footer { "Hüseyin" }
+                                    footer.blockquote-footer { "Your Name" }
                                 }
                             }
                         }

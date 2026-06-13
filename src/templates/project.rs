@@ -12,96 +12,48 @@ pub fn view() -> Markup {
                     "Here are a few projects I've worked on recently."
                 }
                 div.row style="justify-content: center; padding-bottom: 10px;" {
-                    // Project 1: Vardi
+                    // Project 1
                     div.col-md-4.project-card {
                         div.card.project-card-view {
-                            img.card-img-top src="/Assets/Projects/vardi.png" alt="card-img";
+                            img.card-img-top src="/Assets/Projects/blog.png" alt="card-img";
                             div.card-body {
-                                h5.card-title { "Vardi" }
+                                h5.card-title { "Project One" }
                                 p.card-text style="text-align: justify;" {
-                                    "A free and open-source (FOSS), local-first Android application designed to track cargo carriers and shipments across Turkey efficiently with absolute privacy."
+                                    "A detailed description of your first project. Highlight the problem it solves, the technologies utilized, and key achievements."
                                 }
-                                a.btn.btn-primary href="https://github.com/0x733/vardi" target="_blank" {
+                                a.btn.btn-primary href="https://github.com/yourusername/project-one" target="_blank" {
                                     i.fab.fa-github {} " GitHub"
                                 }
                             }
                         }
                     }
                     
-                    // Project 2: Sysguard
+                    // Project 2
                     div.col-md-4.project-card {
                         div.card.project-card-view {
-                            img.card-img-top src="/Assets/Projects/sysguard.png" alt="card-img";
+                            img.card-img-top src="/Assets/Projects/codeEditor.png" alt="card-img";
                             div.card-body {
-                                h5.card-title { "Sysguard" }
+                                h5.card-title { "Project Two" }
                                 p.card-text style="text-align: justify;" {
-                                    "A lightweight system monitoring and resource protection daemon written in Rust, providing automated process auditing and telemetry tracking on Linux."
+                                    "A detailed description of your second project. Highlight the problem it solves, the technologies utilized, and key achievements."
                                 }
-                                a.btn.btn-primary href="https://github.com/0x733/sysguard" target="_blank" {
+                                a.btn.btn-primary href="https://github.com/yourusername/project-two" target="_blank" {
                                     i.fab.fa-github {} " GitHub"
                                 }
                             }
                         }
                     }
                     
-                    // Project 3: NextDNS-Control
+                    // Project 3
                     div.col-md-4.project-card {
                         div.card.project-card-view {
-                            img.card-img-top src="/Assets/Projects/nextdns_control.png" alt="card-img";
+                            img.card-img-top src="/Assets/Projects/chatify.png" alt="card-img";
                             div.card-body {
-                                h5.card-title { "NextDNS-Control" }
+                                h5.card-title { "Project Three" }
                                 p.card-text style="text-align: justify;" {
-                                    "A native Android application written in Kotlin to easily control and configure NextDNS filtering profiles, domain rules, and queries on the fly."
+                                    "A detailed description of your third project. Highlight the problem it solves, the technologies utilized, and key achievements."
                                 }
-                                a.btn.btn-primary href="https://github.com/0x733/NextDNS-Control" target="_blank" {
-                                    i.fab.fa-github {} " GitHub"
-                                }
-                            }
-                        }
-                    }
-                    
-                    // Project 4: Jarvis Linux
-                    div.col-md-4.project-card {
-                        div.card.project-card-view {
-                            img.card-img-top src="/Assets/Projects/jarvis_linux.png" alt="card-img";
-                            div.card-body {
-                                h5.card-title { "Jarvis Linux" }
-                                p.card-text style="text-align: justify;" {
-                                    "An intelligent Python-based command-line companion and automation utility designed for streamline developer setups and Linux desktop control."
-                                }
-                                a.btn.btn-primary href="https://github.com/0x733/jarvis-linux" target="_blank" {
-                                    i.fab.fa-github {} " GitHub"
-                                }
-                            }
-                        }
-                    }
-                    
-                    // Project 5: Finova Expense
-                    div.col-md-4.project-card {
-                        div.card.project-card-view {
-                            img.card-img-top src="/Assets/Projects/finova_expense.png" alt="card-img";
-                            div.card-body {
-                                h5.card-title { "Finova Expense" }
-                                p.card-text style="text-align: justify;" {
-                                    "A modern, cross-platform personal finance and expense management application built with Flutter/Dart utilizing local-first storage design."
-                                }
-                                a.btn.btn-primary href="https://github.com/0x733/finova_expense" target="_blank" {
-                                    i.fab.fa-github {} " GitHub"
-                                }
-                            }
-                        }
-                    }
-                    
-                    // Project 6: Auditguard
-                    div.col-md-4.project-card {
-                        div.card.project-card-view {
-                            img.card-img-top src="/Assets/Projects/auditguard.png" alt="card-img";
-                            div.card-body {
-                                h5.card-title { "Auditguard" }
-                                p.card-text style="text-align: justify;" {
-                                    "A security monitoring daemon developed in Rust that performs automated kernel syscall analysis and reporting on Linux systems."
-                                }
-                                a.btn.btn-primary href="https://github.com/0x733/auditguard" target="_blank" {
+                                a.btn.btn-primary href="https://github.com/yourusername/project-three" target="_blank" {
                                     i.fab.fa-github {} " GitHub"
                                 }
                             }

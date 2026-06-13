@@ -13,7 +13,7 @@ pub fn view() -> Markup {
                             }
                             h1.heading-name {
                                 "I'M "
-                                strong.main-name { "HÜSEYİN" }
+                                strong.main-name { "YOUR NAME" }
                             }
                             div style="padding: 50px; text-align: left;" {
                                 span id="typewriter" {}
@@ -37,19 +37,19 @@ pub fn view() -> Markup {
                                 " MYSELF"
                             }
                             p.home-about-body {
-                                "I am a software engineer specializing in low-level systems programming, security daemon development, and native mobile applications. My technical focus lies at the intersection of OS-level security, systems optimization, and building local-first architectures."
+                                "I am a software engineer specializing in low-level systems programming, fullstack development, and application engineering. My technical focus lies in building scalable, secure, and modern digital experiences."
                                 br;
                                 br;
-                                "I am highly proficient in systems-level languages and application development frameworks, including "
+                                "I am highly proficient in systems-level and web development technologies, including "
                                 i {
-                                    b.purple { "Rust, Kotlin, Python, C++, and Dart." }
+                                    b.purple { "Rust, TypeScript, Python, and Go." }
                                 }
                                 br;
                                 br;
-                                "My primary areas of expertise involve designing secure system utilities, automated auditing engines, and lightweight mobile applications that prioritize privacy and offline performance."
+                                "My primary areas of expertise involve designing secure system utilities, cloud-native backend systems, and lightweight user interfaces that prioritize speed and privacy."
                                 br;
                                 br;
-                                "Whenever possible, I build tools that automate system management, optimize Linux environments, and enhance overall device control."
+                                "Whenever possible, I build tools that automate system management, optimize configurations, and enhance overall developer workflows."
                             }
                         }
                         div.col-md-4.myAvtar {
@@ -73,22 +73,22 @@ pub fn view() -> Markup {
                         }
                         ul.home-about-social-links {
                             li.social-icons {
-                                a.icon-colour.home-social-icons href="https://github.com/0x733" target="_blank" rel="noreferrer" {
+                                a.icon-colour.home-social-icons href="https://github.com/yourusername" target="_blank" rel="noreferrer" {
                                     i.fab.fa-github {}
                                 }
                             }
                             li.social-icons {
-                                a.icon-colour.home-social-icons href="https://x.com/root_huseyin" target="_blank" rel="noreferrer" {
+                                a.icon-colour.home-social-icons href="https://x.com/yourusername" target="_blank" rel="noreferrer" {
                                     i.fab.fa-twitter {}
                                 }
                             }
                             li.social-icons {
-                                a.icon-colour.home-social-icons href="https://open.spotify.com/user/31rvan75oheli5saqslq7jeyo5ty" target="_blank" rel="noreferrer" {
-                                    i.fab.fa-spotify {}
+                                a.icon-colour.home-social-icons href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" {
+                                    i.fab.fa-linkedin-in {}
                                 }
                             }
                             li.social-icons {
-                                a.icon-colour.home-social-icons href="https://www.instagram.com/hsyknx/?hl=tr" target="_blank" rel="noreferrer" {
+                                a.icon-colour.home-social-icons href="https://www.instagram.com/yourusername" target="_blank" rel="noreferrer" {
                                     i.fab.fa-instagram {}
                                 }
                             }

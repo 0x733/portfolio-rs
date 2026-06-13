@@ -5,7 +5,7 @@ pub fn navbar(current_route: &str) -> Markup {
         nav.navbar.navbar-expand-md.fixed-top.navbar-dark {
             div.container {
                 a.navbar-brand.d-flex href="/" {
-                    span.purple style="font-weight: 800; font-size: 1.5em; letter-spacing: 1px;" { "HN" }
+                    span.purple style="font-weight: 800; font-size: 1.5em; letter-spacing: 1px;" { "YN" }
                 }
                 button.navbar-toggler type="button" data-bs-toggle="collapse" data-bs-target="#responsive-navbar-nav" aria-controls="responsive-navbar-nav" aria-expanded="false" aria-label="Toggle navigation" {
                     span {}
@@ -30,7 +30,7 @@ pub fn navbar(current_route: &str) -> Markup {
                             }
                         }
                         li.nav-item.fork-btn {
-                            a.fork-btn-inner.btn.btn-primary href="https://github.com/0x733/portfolio" target="_blank" {
+                            a.fork-btn-inner.btn.btn-primary href="https://github.com/yourusername/portfolio" target="_blank" {
                                 i.fa-solid.fa-code-fork style="font-size: 1.2em; margin-right: 4px;" {}
                                 i.fa-solid.fa-star style="font-size: 1.1em;" {}
                             }
@@ -48,30 +48,30 @@ pub fn footer() -> Markup {
             div.container {
                 div.row {
                     div.col-md-4.footer-copywright {
-                        h3 { "Designed and Developed by Hüseyin" }
+                        h3 { "Designed and Developed by Your Name" }
                     }
                     div.col-md-4.footer-copywright {
-                        h3 { "Copyright © 2026 HN" }
+                        h3 { "Copyright © 2026 YN" }
                     }
                     div.col-md-4.footer-body {
                         ul.footer-icons {
                             li.social-icons {
-                                a href="https://github.com/0x733" target="_blank" rel="noopener noreferrer" style="color: white;" {
+                                a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" style="color: white;" {
                                     i.fab.fa-github {}
                                 }
                             }
                             li.social-icons {
-                                a href="https://x.com/root_huseyin" target="_blank" rel="noopener noreferrer" style="color: white;" {
+                                a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer" style="color: white;" {
                                     i.fab.fa-twitter {}
                                 }
                             }
                             li.social-icons {
-                                a href="https://open.spotify.com/user/31rvan75oheli5saqslq7jeyo5ty" target="_blank" rel="noopener noreferrer" style="color: white;" {
-                                    i.fab.fa-spotify {}
+                                a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" style="color: white;" {
+                                    i.fab.fa-linkedin-in {}
                                 }
                             }
                             li.social-icons {
-                                a href="https://www.instagram.com/hsyknx/?hl=tr" target="_blank" rel="noopener noreferrer" style="color: white;" {
+                                a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer" style="color: white;" {
                                     i.fab.fa-instagram {}
                                 }
                             }
