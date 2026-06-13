@@ -247,12 +247,14 @@ button:focus {
     transform: rotate(0deg);
   }
 }
-#tsparticles {
+#particle-canvas {
   position: fixed !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .home-header {
@@ -270,7 +272,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 5.5rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -451,7 +453,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 80px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -549,7 +551,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 80px !important;
   padding-bottom: 30px !important;
   /* background-image: var(--section-background-color) !important; */
   color: white !important;
@@ -622,7 +624,7 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 80px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
