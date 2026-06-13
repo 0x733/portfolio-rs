@@ -1,4 +1,4 @@
-use maud::{html, Markup, DOCTYPE, PreEscaped};
+use maud::{html, Markup, DOCTYPE};
 
 pub fn navbar(current_route: &str) -> Markup {
     html! {
@@ -120,13 +120,8 @@ pub fn render(current_route: &str, title: &str, content: Markup) -> Markup {
                     (footer())
                 }
                 
-                // WASM Instantiation (Loads frontend compiled from Rust/WASM)
-                script type="module" {
-                    (PreEscaped(r#"
-                        import init from "/js/wasm/portfolio_frontend.js";
-                        init();
-                    "#))
-                }
+                // Custom JS script for client-side interactions
+                script src="/js/main.js" {}
             }
         }
     }
