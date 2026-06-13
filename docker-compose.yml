@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    runtime: runsc
+    container_name: huseyin-portfolio
+    restart: always
+    ports:
+      - "127.0.0.1:3002:80"
+
